@@ -1,0 +1,54 @@
+html,
+body{
+    height: 100%;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text_box{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#imageEditor{
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #4b4b4b;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+   border-radius: 8px;
+   background-color: #ababab;
+}
+
+#editorContainer{
+    display: block;
+    width: 800px;
+    height: 500px;
+    overflow: auto;
+}
+
+#editor{
+    display: block;
+    margin: auto;
+}
+
+#toolbar{
+    margin: auto;
+    display: block;
+    
+}
+
+#toolbar button {
+    padding: 10px 20px 10px 20px;
+}
+
+/* #resizer {
+    border:2px dashed #000
+} */
